@@ -58,6 +58,7 @@ display: grid;
     max-width: 40rem;
     height: 25rem;
 justify-content: center;
+padding-left: 7rem;
   
 }
 .image{
@@ -181,6 +182,7 @@ img:hover{
 
 
 @media (max-width: 428px) {
+   
 .menu{
     flex-direction: column;
     height: 4rem;
@@ -207,19 +209,25 @@ section{
     display: contents;
 }
 .left{
-    padding-top: 1rem;
-    width: 100%;
-    text-align: center;
 
+    width: 100vw;
+    text-align: inherit;
+    justify-content: center;
+    padding: 0rem 3rem;
 }
 h1{
-    font-size: 25px;
+    font-size: 27px;
+    margin-top: 1rem;
 }
 h2{
-    font-size: 20px;
+    font-size: 25px;
+}
+h3{
+    font-size: 15px;
 }
 .botao{
     margin: 0 auto;
+    font-size: 14px;
 }
 .image{
 
